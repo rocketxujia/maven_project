@@ -7,4 +7,4 @@ maven的web开发案例
 * 2.能够在IDEA下，新建导入maven project方式打开该案例，并运行通过浏览器顺利打开页面。
 * 2.1 先在Lifecycle中执行install命令
 * 2.2 在plugins下执行jetty:run命令 （前提已在pom.xml下配置完毕）
-* 3
+* 3.假设要在应用中使用jsp或者freemaker, 就需要在pom.xml中增加jsp或者freemaker的dependency依赖项。
